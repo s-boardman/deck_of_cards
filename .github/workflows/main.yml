@@ -1,4 +1,4 @@
-name: CI
+name: CI Build
 on: [push, pull_request]
 jobs:
   build:
@@ -31,6 +31,3 @@ jobs:
     - name: Run tests
       run: |
         nbdev_test_nbs
-    - name: Build docs
-      run: |
-        nbdev_build_docs
