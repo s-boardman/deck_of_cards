@@ -31,3 +31,6 @@ jobs:
     - name: Run tests
       run: |
         nbdev_test_nbs
+    - name: Build docs
+      run: |
+        nbdev_build_docs
