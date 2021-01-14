@@ -11,7 +11,7 @@ jobs:
         architecture: 'x64'
     - name: Install the library
       run: |
-        pip install nbdev jupyter
+        pip install nbdev jupyter nbconvert==5.6.1
         pip install -e .
     - name: Build docs
       run: |
